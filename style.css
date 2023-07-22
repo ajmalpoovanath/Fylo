@@ -49,3 +49,29 @@ section {
   display: flex;
   padding: 34px 78px;
 }
+.social-icons {
+  filter: invert(100%) sepia(25%) saturate(39%) hue-rotate(27deg)
+    brightness(109%) contrast(111%);
+  height: auto;
+  width: 40px;
+}
+footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 34px 78px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+.other-links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact {
+  display: flex;
+  align-items: center;
+}
