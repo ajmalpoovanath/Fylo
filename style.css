@@ -57,21 +57,35 @@ section {
 }
 footer {
   background-color: hsl(243, 87%, 12%);
-  padding: 34px 78px;
+  padding: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.fylo-logo {
+  height: auto;
+  width: 175px;
 }
 .footer-links {
   display: flex;
-  justify-content: space-between;
+  gap: 214px;
 }
 .other-links {
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 .footer-links a {
   text-decoration: none;
   color: #fff;
 }
-.contact {
+.contact-links a {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
