@@ -46,6 +46,7 @@ main {
   padding: 278px 78px;
 }
 section {
+  background-color: hsl(238, 22%, 44%);
   display: flex;
   padding: 34px 78px;
 }
