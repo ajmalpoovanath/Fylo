@@ -108,11 +108,22 @@ footer {
   color: #fff;
 }
 .get-started-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: hsl(224, 93%, 58%);
   text-decoration: none;
   color: #fff;
-  padding: 12px 40px;
   font-size: 14px;
   box-shadow: 1px 1px 2px -1px rgba(128, 128, 128, 0.2);
-  border-radius: 5px;
+  width: 218px;
+  height: 44px;
+}
+.section-input-box {
+  width: 452px;
+  height: 58px;
+  padding: 12px 0 12px 40px;
+}
+::placeholder {
+  color: #bfbfbf;
 }
