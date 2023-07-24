@@ -29,7 +29,7 @@ hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 34px 78px;
+  padding: 54px 78px;
 }
 .image-hero {
   height: auto;
@@ -40,10 +40,14 @@ hero {
   flex-direction: column;
   gap: 26px;
 }
-
 main {
   display: flex;
-  padding: 138px 78px;
+  flex-direction: column;
+}
+.main-parent {
+  display: flex;
+  padding: 98px 78px;
+  background-color: #f8f8fe;
 }
 section {
   background-color: hsl(238, 22%, 44%);
@@ -185,6 +189,10 @@ footer {
 }
 .main_container-content a {
   color: hsl(170, 45%, 43%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
 }
 .hero-input {
   width: 294px;
