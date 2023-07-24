@@ -31,7 +31,7 @@ hero {
   justify-content: space-between;
   padding: 34px 78px;
 }
-.image {
+.image-hero {
   height: auto;
   width: 50%;
 }
@@ -43,7 +43,7 @@ hero {
 
 main {
   display: flex;
-  padding: 278px 78px;
+  padding: 138px 78px;
 }
 section {
   background-color: hsl(238, 22%, 44%);
@@ -161,4 +161,37 @@ footer {
 }
 .profile-details p {
   font-size: 8px;
+}
+.image-main {
+  height: auto;
+  width: 40%;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.main_container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.main_container-content h1 {
+  font-size: 42px;
+}
+.main_container-content p {
+  max-width: 70%;
+}
+.main_container-content a {
+  color: hsl(170, 45%, 43%);
+}
+.hero-input {
+  width: 294px;
+  height: 44px;
+  padding: 12px 0 12px 18px;
+}
+.hero-form {
+  display: flex;
+  gap: 15px;
 }
