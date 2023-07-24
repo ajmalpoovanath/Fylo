@@ -179,6 +179,7 @@ footer {
 .main_container-content {
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 15px;
 }
 .main_container-content h1 {
@@ -188,11 +189,21 @@ footer {
   max-width: 70%;
 }
 .main_container-content a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: hsl(170, 45%, 43%);
   display: flex;
   align-items: center;
   gap: 5px;
   text-decoration: none;
+}
+.main_container-content a::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: hsl(170, 45%, 43%);
 }
 .hero-input {
   width: 294px;
