@@ -127,3 +127,38 @@ footer {
 ::placeholder {
   color: #bfbfbf;
 }
+.box {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 1px 1px 12px rgba(212, 211, 211, 0.5);
+  height: auto;
+  width: 50%;
+}
+.box p {
+  font-size: 14px;
+}
+.section-profile {
+  display: flex;
+  gap: 15px;
+}
+.section-profile img {
+  border-radius: 50%;
+  height: auto;
+  width: 15%;
+}
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.profile-details h6 {
+  font-family: "Raleway", sans-serif;
+}
+.profile-details p {
+  font-size: 8px;
+}
