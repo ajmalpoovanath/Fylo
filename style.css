@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
 h1,
 h2 {
   font-family: "Raleway", sans-serif;
@@ -13,7 +14,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-/* transfer into input part */
+
 input::placeholder {
   color: #bfbfbf;
 }
@@ -59,11 +60,11 @@ hero {
 }
 
 .hero-input {
-  width: 294px;
+  width: 278px;
   height: 44px;
   padding: 12px 0 12px 18px;
 }
-/* padding convertion */
+
 .get-started-button {
   display: flex;
   justify-content: center;
@@ -73,13 +74,12 @@ hero {
   color: #fff;
   font-size: 14px;
   box-shadow: 1px 1px 2px -1px rgba(128, 128, 128, 0.2);
-  width: 218px;
-  height: 44px;
+  padding: 12px 28px;
 }
 
 .image-hero {
   height: auto;
-  width: 50%;
+  width: 44%;
 }
 
 main {
@@ -203,12 +203,13 @@ section {
 .section-form {
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 15px;
 }
 
 .section-input-box {
   width: 452px;
-  height: 58px;
+  height: 46px;
   padding: 12px 0 12px 40px;
 }
 
@@ -260,4 +261,9 @@ footer {
     brightness(109%) contrast(111%);
   height: auto;
   width: 40px;
+}
+@media (max-width: 1024px) {
+  .footer-links {
+    gap: 112px;
+  }
 }
