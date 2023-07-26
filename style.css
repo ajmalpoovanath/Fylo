@@ -96,6 +96,7 @@ main {
   display: flex;
   padding: 98px 78px;
   background-color: #f8f8fe;
+  align-items: center;
 }
 
 .main-container {
@@ -183,6 +184,10 @@ main {
 .image-main {
   height: auto;
   width: 40%;
+}
+.image-main img {
+  width: 100%;
+  height: 100%;
 }
 
 section {
