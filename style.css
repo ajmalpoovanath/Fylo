@@ -63,6 +63,7 @@ hero {
   width: 278px;
   height: 44px;
   padding: 12px 0 12px 18px;
+  outline: none;
 }
 
 .get-started-button {
@@ -88,8 +89,7 @@ main {
 }
 
 .image-curve {
-  height: 78px;
-  background-image: url(images/bg-curve-desktop.svg);
+  margin-bottom: -1rem;
 }
 
 .main-parent {
@@ -216,6 +216,7 @@ section {
   width: 452px;
   height: 46px;
   padding: 12px 0 12px 40px;
+  outline: none;
 }
 
 footer {
