@@ -281,6 +281,20 @@ footer {
 
 /* Active states */
 
+.buttons:hover {
+  background-color: hsl(224, 100%, 75%);
+  cursor: pointer;
+}
+
+.footer-links a:hover {
+  color: #585989;
+}
+
+.social-icons:hover {
+  filter: invert(33%) sepia(12%) saturate(1611%) hue-rotate(200deg)
+    brightness(103%) contrast(89%);
+}
+
 @media (max-width: 1024px) {
   .footer-links {
     gap: 112px;
