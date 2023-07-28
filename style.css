@@ -45,7 +45,7 @@ hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 54px 78px;
+  padding: 58px;
 }
 
 .hero-contents {
@@ -104,7 +104,7 @@ main {
 
 .main-parent {
   display: flex;
-  padding: 98px 78px;
+  padding: 98px 58px;
   background-color: #f8f8fe;
   align-items: center;
 }
@@ -123,7 +123,7 @@ main {
 }
 
 .main-container__content h1 {
-  font-size: 42px;
+  font-size: 2em;
 }
 
 .main-container__content p {
@@ -203,7 +203,7 @@ main {
 section {
   background-color: hsl(238, 22%, 44%);
   display: flex;
-  padding: 78px;
+  padding: 58px;
   justify-content: space-between;
 }
 
@@ -229,56 +229,6 @@ section input {
   outline: none;
 }
 
-footer {
-  background-color: hsl(243, 87%, 12%);
-  padding: 78px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  gap: 20px;
-}
-
-.footer-links {
-  display: flex;
-  gap: 214px;
-}
-
-.contact-links {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.footer-links a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.contact-links a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.other-links {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.social-media-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.social-icons {
-  filter: invert(100%) sepia(25%) saturate(39%) hue-rotate(27deg)
-    brightness(109%) contrast(111%);
-  height: auto;
-  width: 40px;
-}
-
 /* Active states */
 
 .buttons:hover {
@@ -286,17 +236,79 @@ footer {
   cursor: pointer;
 }
 
-.footer-links a:hover {
-  color: #585989;
-}
+@media (max-width: 768px) {
+  header {
+    padding: 28px 10px;
+  }
 
-.social-icons:hover {
-  filter: invert(33%) sepia(12%) saturate(1611%) hue-rotate(200deg)
-    brightness(103%) contrast(89%);
-}
+  .fylo-logo {
+    width: 94px;
+  }
 
-@media (max-width: 1024px) {
-  .footer-links {
-    gap: 112px;
+  .header-links {
+    gap: 15px;
+  }
+
+  hero {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .image-hero {
+    width: 60%;
+  }
+
+  .hero-contents {
+    align-items: center;
+  }
+
+  .hero-contents h1,
+  .hero-contents p,
+  .main-container h1,
+  .main-container p,
+  .section-content h2,
+  .section-content p {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .hero-form form {
+    flex-direction: column;
+  }
+
+  .main-parent {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .main-container__content {
+    align-items: center;
+  }
+
+  .main-container {
+    align-items: center;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .section-content {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  section input {
+    width: 298px;
+  }
+
+  .buttons {
+    width: 100%;
   }
 }
