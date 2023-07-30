@@ -308,6 +308,16 @@ footer {
   cursor: pointer;
 }
 
+.social-media-icons:hover {
+  filter: invert(33%) sepia(18%) saturate(1150%) hue-rotate(200deg)
+    brightness(97%) contrast(84%);
+}
+
+.footer-links__contact-info a:hover,
+.footer-links__other a:hover {
+  color: #585989;
+}
+
 @media (max-width: 768px) {
   header {
     padding: 28px 10px;
