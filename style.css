@@ -411,4 +411,8 @@ footer {
     flex-direction: column;
     gap: 25px;
   }
+
+  .image-curve {
+    margin-bottom: 0rem;
+  }
 }
