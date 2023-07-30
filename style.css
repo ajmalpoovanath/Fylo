@@ -418,9 +418,15 @@ footer {
 
   header,
   hero,
-  main,
   section,
   footer {
     padding: 28px;
+  }
+}
+
+@media (max-width: 425px) {
+  .image-curve {
+    margin-top: 3rem;
+    margin-bottom: -3rem;
   }
 }
