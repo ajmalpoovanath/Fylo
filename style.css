@@ -415,4 +415,12 @@ footer {
   .image-curve {
     margin-bottom: 0rem;
   }
+
+  header,
+  hero,
+  main,
+  section,
+  footer {
+    padding: 28px;
+  }
 }
