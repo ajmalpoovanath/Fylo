@@ -98,10 +98,6 @@ main {
   flex-direction: column;
 }
 
-.image-curve {
-  margin-bottom: -1rem;
-}
-
 .main-parent {
   display: flex;
   padding: 98px 58px;
@@ -412,21 +408,10 @@ footer {
     gap: 25px;
   }
 
-  .image-curve {
-    margin-bottom: 0rem;
-  }
-
   header,
   hero,
   section,
   footer {
     padding: 28px;
-  }
-}
-
-@media (max-width: 425px) {
-  .image-curve {
-    margin-top: 3rem;
-    margin-bottom: -3rem;
   }
 }
